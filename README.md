@@ -1,1 +1,1 @@
-"# iocage-plugin-wordpress" 
+# iocage-plugin-wordpress
