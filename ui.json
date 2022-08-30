@@ -1,0 +1,4 @@
+{
+  "adminportal": "http://%%IP%%/wp-admin",
+  "docurl": "https://github.com/akatutis/iocage-plugin-wordpress"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "wordpress",
+  "plugin_schema": "2",
+  "release": "13.1-RELEASE",
+  "artifact": "https://github.com/akatutis/iocage-plugin-wordpress.git",
+  "properties": {
+    "vnet": 1,
+    "dhcp": 1
+  },
+  "pkgs": [
+    "mariadb105-server",
+    "mariadb105-client",
+    "php74",
+		"php74-xml",
+		"php74-gd",
+		"php74-curl",
+		"php74-tokenizer",
+		"php74-zlib",
+		"php74-zip",
+		"php74-intl",
+		"php74-mbstring",
+		"php74-json",
+		"php74-ftp",
+		"php74-ctype",
+		"php74-dom",
+		"php74-posix",
+		"php74-filter",
+		"php74-iconv",
+		"php74-openssl",
+		"php74-simplexml",
+		"php74-sockets",
+		"php74-xmlreader",
+		"php74-mysqli",
+		"php74-pdo_mysql",
+		"mod_php74",
+		"nano"
+  ],
+  "packagesite": "https://pkg.freebsd.org/FreeBSD:13:amd64/quarterly",
+  "fingerprints": {
+    "iocage-plugins": [
+      {
+        "function": "sha256",
+        "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
+      }
+    ]
+  },
+  "official": true,
+  "revision": "0"
+}
