@@ -35,7 +35,7 @@
 		"mod_php74",
 		"nano"
   ],
-  "packagesite": "https://pkg.freebsd.org/FreeBSD:13:amd64/quarterly",
+  "packagesite": "http://pkg.freebsd.org/${ABI}/latest",
   "fingerprints": {
     "iocage-plugins": [
       {
@@ -44,6 +44,6 @@
       }
     ]
   },
-  "official": true,
-  "revision": "0"
+  "official": false,
+  "revision": 0.1
 }
