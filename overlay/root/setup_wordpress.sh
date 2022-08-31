@@ -47,7 +47,7 @@ wordpress_dir=/usr/local/www/apache24/data/wordpress
 {
   echo "<VirtualHost *:80>"
   echo "    ServerAdmin webmaster@example.com"
-  echo "    ServerName $HOST"
+  echo "    ServerName localhost"
   echo "    DocumentRoot $wordpress_dir"
   echo "    <Directory $wordpress_dir>"
   echo "       AllowOverride All"
